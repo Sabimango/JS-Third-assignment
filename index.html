@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
     <title>Sabi Mango</title>
 </head>
 <body>
+    <style class="bgimg">
+        body {
+         background-image: url('./images/sabiblack.jpg');
+         min-height: 100%;
+         background-repeat: no-repeat;
+         background-size: 100%
+        }
+        </style>
     <header class="top-header">
+     
         <!--Navbar-->
         <nav>
           <h1 id="logo">Sabi Mango</h1>
@@ -15,7 +25,7 @@
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#instagram">Instagram</a></li>
           </ul>
-          <div class="nav-button">
+          <div class="nav-btn">
             <span class="line1"></span>
             <span class="line2"></span>
             <span class="line3"></span>
@@ -29,9 +39,6 @@
               <span class="main-title">Sabi Mango</span>
               MODEL
             </h2>
-            <div class="site-image">
-                <img class="my-img" src="./images/sabimango.jpg" alt="picture-girl" />
-              </div>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
               Qui quos ullam dicta ab illum et maxime sequi praesentium repellendus asperiores voluptate iusto totam, 
@@ -44,7 +51,7 @@
         <div id="mainModal" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>
-            <h2>Ask me anything!</h2>
+            <h2>Book me for your project!</h2>
             <form class="contact--form" action="">
               <label for="name">Full Name:</label>
               <input id="name" type="text">
