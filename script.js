@@ -17,5 +17,14 @@ window.onclick = function (event) {
   }
 }
 
-/// googla javascript submit form ///
-//gör en ny klass hidden,  toggle hidden element 
+const nav = document.getElementsByClassName("nav-links");
+const navbtn = document.getElementsByClassName("nav-button");
+
+navbtn.onclick = function() {
+    if (nav.style.display == "none") {
+        nav.style.display = "block";
+    } else {
+        navbar.style.display = "none";
+    }
+}
+

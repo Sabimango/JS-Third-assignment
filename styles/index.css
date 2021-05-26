@@ -19,10 +19,21 @@ header {
   color: #333;
 }
 
+.nav-button {
+  position: absolute;
+  top: 150px;
+  font-size: 40px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
 
+}
+
+.nav-links {
+  font-size: 20px;
+  background-color: grey;
 }
 
 .center {
