@@ -1,4 +1,72 @@
-.h1 {
-  font-size: 80px;
-  color: green;
+* {
+  box-sizing: border-box;
+}
+ .main-container {
+  background-image: url('../images/sabiblack.jpg');
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 1;
+  overflow: hidden;
+  width: 100%;
+  height: 88%;
+  top: 0;
+  left: 0;
+  position: fixed !important;
+}
+.center {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 100px; left: 0; bottom: 0; right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.main-head {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid white;
+  text-shadow: 2px 2px black;
+  padding: 1em 1.6em;
+  font-weight: 100;
+  border-radius: 5px;
+  line-height: 1em;
+}
+
+.sabi-subhead {
+  color: white;
+  text-shadow: 2px 2px black;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+}
+
+.contact-btn {
+  background-color: black;
+  color: white;
+  padding: 0.5em 2em;
+  border-radius: 5px;
+}
+
+.contact-button-primary {
+  background: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 120%;
+}
+
+.contact--form label {
+  margin: 1em 0 0;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.contact--form input[type] {
+  border: 2px solid #ddd;
+  box-shadow: none;
+  font-size: 100%;
+  width: 100%;
+  margin-bottom: 1em;
 }
