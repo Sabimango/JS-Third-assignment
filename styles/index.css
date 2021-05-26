@@ -1,29 +1,38 @@
 * {
   box-sizing: border-box;
 }
- .main-container {
-  background-image: url('../images/sabiblack.jpg');
+
+body {
+  background-image: url("../images/sabiblack.jpg");
   min-height: 100%;
   background-repeat: no-repeat;
   background-size: 100%;
-  z-index: 1;
-  overflow: hidden;
-  width: 100%;
-  height: 88%;
-  top: 0;
-  left: 0;
-  position: fixed !important;
+  margin: 0;
 }
+
+header {
+  height: 120px;
+  width: 100%;
+  background: #eee;
+  display: flex;
+  flex-direction: row;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .center {
   width: 80%;
   height: 50%;
   margin: auto;
-  position: absolute;
-  top: 100px; left: 0; bottom: 0; right: 0;
   text-align: center;
   text-transform: uppercase;
-  
 }
+
 .main-head {
   font-size: 20px;
   font-weight: bold;
@@ -57,16 +66,29 @@
   font-size: 120%;
 }
 
-.contact--form label {
-  margin: 1em 0 0;
-  font-weight: bold;
-  font-size: 100%;
+.modal-content {
+  display: block;
+  align-self: center;
+  border-radius: 4px;
+  box-shadow: 6px 6px 12px 7px;
+  background: #fff;
+  position: absolute;
+  display: none;
+  padding: 40px;
+  z-index: 200;
 }
 
-.contact--form input[type] {
-  border: 2px solid #ddd;
-  box-shadow: none;
-  font-size: 100%;
-  width: 100%;
-  margin-bottom: 1em;
+.main-container {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 120px);
 }
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0);
+}
+
