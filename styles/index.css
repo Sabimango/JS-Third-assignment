@@ -52,14 +52,9 @@ nav {
   opacity: 0.8;
 }
 
-.contact-btn {
-  background-color: black;
-  color: white;
-  padding: 0.5em 2em;
-  border-radius: 5px;
-}
 
-.contact-button-primary {
+
+#modal-btn-id {
   background: white;
   color: black;
   border-radius: 5px;

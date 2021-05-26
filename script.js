@@ -1,9 +1,10 @@
-const modal = document.getElementByClassName("modal-content");
-const btn = document.getElementByClassName("contact-btn");
+const modal = document.getElementById("modal-content");
+const btn = document.getElementById("modal-btn-id");
 const span = document.getElementsByClassName("close")[0];
 
 btn.onclick = function () {
   modal.style.display = "block";
+  
 }
 
 span.onclick = function () {
@@ -15,3 +16,6 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 }
+
+/// googla javascript submit form ///
+//gör en ny klass hidden,  toggle hidden element 
