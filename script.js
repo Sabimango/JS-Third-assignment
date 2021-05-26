@@ -17,14 +17,13 @@ window.onclick = function (event) {
   }
 }
 
-const nav = document.getElementsByClassName("nav-links");
-const navbtn = document.getElementsByClassName("nav-button");
+const nav = document.getElementById("nav-links");
+const navbtn = document.getElementById("nav-button");
 
 navbtn.onclick = function() {
-    if (nav.style.display == "none") {
+    if (nav.style.display === "none") {
         nav.style.display = "block";
     } else {
-        navbar.style.display = "none";
+        nav.style.display = "none";
     }
 }
-

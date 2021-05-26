@@ -21,7 +21,7 @@ header {
 
 .nav-button {
   position: absolute;
-  top: 150px;
+  top: 130px;
   font-size: 40px;
 }
 
@@ -95,4 +95,3 @@ nav {
   width: 100vw;
   background: rgba(0, 0, 0, 0);
 }
-
