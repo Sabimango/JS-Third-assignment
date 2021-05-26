@@ -53,7 +53,6 @@ nav {
 }
 
 
-
 #modal-btn-id {
   background: white;
   color: black;
@@ -61,13 +60,12 @@ nav {
   font-size: 120%;
 }
 
-.modal-content {
-  display: block;
+#modal-content {
+  position: absolute;
   align-self: center;
   border-radius: 4px;
   box-shadow: 6px 6px 12px 7px;
   background: #fff;
-  position: absolute;
   display: none;
   padding: 40px;
   z-index: 200;

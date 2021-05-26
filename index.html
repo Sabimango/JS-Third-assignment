@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/c8db910eee.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Sabi Mango</title>
   </head>
@@ -11,21 +12,15 @@
     <div id="mainModal" class="modal">
       <header class="top-header">
         <!--Navbar-->
-        <nav>
-          <div>
-            <h1 id="logo">Sabi Mango</h1>
+        <nav class="nav">
+            <button class="nav-button">
+                <i class="fas fa-bars"></i>
+            </button>
             <ul class="nav-links">
               <li><a href="#aboutme">About Me</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
               <li><a href="#instagram">Instagram</a></li>
             </ul>
-          </div>
-
-          <div class="nav-btn">
-            <span class="line1">-</span>
-            <span class="line2">-</span>
-            <span class="line3">-</span>
-          </div>
         </nav>
       </header>
 
@@ -38,13 +33,12 @@
             </p>
             <p>
               <button id="modal-btn-id">CONTACT NOW</button>
-                
             </p>
           </div>
         </div>
       </main>
 
-      <div id="modal-content">
+      <div id="modal-content" class="modal-content">
         <span class="close">&times;</span>
         <h2>Book me for your project!</h2>
         <form class="contact--form" action="">
